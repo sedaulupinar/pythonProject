@@ -1,0 +1,8 @@
+___________________________________________________________________________________________________________
+                                        DAY 1
+ - using of variables as parameter and also at definement in methods
+ - calling of main method
+ - using of print method
+ - definitons of methods
+
+ __________________________________________________________________________________________________________
