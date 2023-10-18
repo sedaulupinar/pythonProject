@@ -11,6 +11,11 @@ def print_hi(name):
 def print_no(number):
     print(f'my number is, {number}')
 
+def besiktas():
+    if False:
+        crt=datetime.datetime.now()
+    crt='2023-10-19 00:37:50.801773'
+    print(f'{crt}')
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -18,5 +23,5 @@ if __name__ == '__main__':
     print_no('007')
     print_hi('Umut')
     print_no('009')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    besiktas()
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/i
