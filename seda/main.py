@@ -16,6 +16,10 @@ def besiktas():
         crt=datetime.datetime.now()
     crt='2023-10-19 00:37:50.801773'
     print(f'{crt}')
+def carpim(a,b):
+    sonuc=a*b
+    return sonuc
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -24,4 +28,10 @@ if __name__ == '__main__':
     print_hi('Umut')
     print_no('009')
     besiktas()
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/i
+    carpimsonucu=carpim(4,5)
+    print(carpimsonucu)
+
+
+# See PyCharm help at https://ww
+#
+# w.jetbrains.com/help/pycharm/i
