@@ -9,7 +9,13 @@ def print_versiyon():
     crt='2023-10-19 00:37:50.801773'
     print(f'{crt}')
 
+def carpim(number1,number2):
+    sonuc=number1*number2
+    return sonuc
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_versiyon()
     print_conversation('umut','009')
+    carpimSonucu=carpim(4,5)
+    print(carpimSonucu)
