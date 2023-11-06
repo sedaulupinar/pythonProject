@@ -23,6 +23,13 @@ def print_pyramid():
         yildizlar = "*" * yildiz_sayisi
         print(bosluklar + yildizlar)
 
+def print_square():
+    kenar_uzunlugu = int(input("karenin bir kenar uzunlugunu giriniz: "))
+
+    for i in range(1,kenar_uzunlugu+1):
+        yildizlar = "*  " * kenar_uzunlugu
+        print(yildizlar)
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_versiyon()
@@ -30,3 +37,4 @@ if __name__ == '__main__':
     carpimSonucu=carpim(4,5)
     print(carpimSonucu)
     print_pyramid()
+    print_square()
