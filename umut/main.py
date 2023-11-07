@@ -9,9 +9,11 @@ def print_versiyon():
     crt='2023-10-19 00:37:50.801773'
     print(f'{crt}')
 
-def carpim(number1,number2):
+def carpim():
+    number1=int(input("1. sayiyi giriniz: "))
+    number2=int(input("2. sayiyi giriniz: "))
     sonuc=number1*number2
-    return sonuc
+    print(sonuc)
 
 def print_pyramid():
     taban_uzunlugu = int(input("Piramidin taban uzunluğunu girin: "))
@@ -30,11 +32,22 @@ def print_square():
         yildizlar = "*  " * kenar_uzunlugu
         print(yildizlar)
 
+def menu():
+    return int(input("hangi islemi yaptirmak istiyorsunuz:\n1)ad-numara yazdirma\n2)carpim islemi\n3)piramit cizdirme\n4)kare cizdirme\n"))
+
+def islem(secenek):
+    if secenek == 1:
+        print_conversation("umut", 6)
+    elif secenek == 2:
+        carpim()
+    elif secenek == 3:
+        print_pyramid()
+    elif secenek == 4:
+        print_square()
+
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_versiyon()
-    print_conversation('umut','009')
-    carpimSonucu=carpim(4,5)
-    print(carpimSonucu)
-    print_pyramid()
-    print_square()
+    secenek=menu()
+    islem(secenek)
